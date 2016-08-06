@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Never Sleep hungry</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    <link rel="stylesheet" href="public/css/styles.css"/>
+</head>
+<body>
+<nav id="topNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#first" style="font-size:15px">Never Sleep Hungry</a>
+        </div>
+        <div class="navbar-collapse collapse" id="bs-navbar">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a class="page-scroll" href="#one" style="font-size:15px">Home</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#two" style="font-size:15px">What You Get?</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#three" style="font-size:15px">Events Gallery</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="#last" style="font-size:15px">Contact US</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" data-toggle="modal" title="NEVER SLEEP HUNGRY" href="#aboutModal"
+                       style="font-size:15px">About US</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<header id="first">
+    <div class="header-content">
+        <div class="inner frontImageText">
+            <h2 class="cursive">Never Sleep Hungry, an initiative to bring food on a hungry child's plate</h2>
+            <h4>THERE ARE PEOPLE SO HUNGRY THAT GOD CANNOT APPEAR TO THEM EXCEPT IN THE FORM OF FOOD</h4>
+            <hr>
+            <div id="paymentButtons">
+                <!--<a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Make-->
+                <!--Donation</a>-->
+                <br>
+                <br>
+                <!--<a href="#one" class="btn btn-primary btn-xl page-scroll">Donate a Meal</a>-->
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <input type="image" width="240px" src="http://i1076.photobucket.com/albums/w445/Abhinav_Pandey/Screen%20Shot%202016-07-31%20at%2010.53.35%20PM_zpsibzcpvbh.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--<video autoplay="" loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">-->
+    <!--<source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.-->
+    <!--</video>-->
+</header>
+<section class="bg-primary" id="one">
+    <div class="container homeText">
+        <div class="row ">
+            <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center" style="color: black">
+                <h1 class="margin-top-0 text-primary">Facts About Child Hunger</h1>
+                <br>
+                <p class="text-faded" style="color: black">
+                    According to latest FAO estimates in ‘The State of Food Insecurity in the World, 2015” report,
+                    194.6 million people are undernourished in India.
+                <h3 class="margin-top-0 text-primary">Facts about hunger in India</h3>
+                <ul style="list-style: none">
+                    <li>India is home to the largest undernourished and hungry population in the world</li>
+                    <li> 15.2% of our population is undernourished</li>
+                    <li> 194.6million people go hungry everyday</li>
+                    <li> 30.7% of children under 5 are underweight</li>
+                    <li> 58% of children stunted by 2 years of age</li>
+                    <li> 1 in 4 children malnourished</li>
+                    <li>3,000 children in India die every day from poor diet related illness</li>
+                    <li> 24% of under-five deaths in India</li>
+                    <li> 30% of neo-natal deaths in India</li>
+                </ul>
+                <h3 class="margin-top-0 text-primary"> Why is the hunger in India so alarming?</h3>
+                The food grain production is touching new heights every year and we are producing more than
+                sufficient to feed our people without relying on external support. However, sufficient food production
+                is not the only criteria to provide food security in a country and eliminate hunger.
+                Another critical factor that contributes to large scale hunger in India is the
+                purchasing capacity of the households for nutritious and quality food. The households living below
+                poverty line (BPL) do not have sufficient means to ensure food and nutritional security. NSSO data
+                reveals that BPL households in rural India are spending as high as 70% of the consumption expenditure
+                meeting their food requirements.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="two" class="rewardImage">
+    <div class="container ">
+        <div class="row homeText">
+            <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 text-center" style="color: black">
+                <h1 class="margin-top-0 text-primary" style="color: yellow">What You Get?</h1>
+                <h2>A BIG SATISFACTION THAT YOU HELPED FOR A CAUSE!</h2>
+                <h2>A FREE NEVERSLEEPHUNGRY EVENT CALENDAR</h2>
+                <ul style="font-size: 20px">
+                    <li>One video at the end of the month showing your money being utilized to provide food to hungry kids out there.</li>
+                    <li>In the Contact US Section provide your email Id and give us the feedback
+                        about your donation and we will give you a free calendar for next event and a video showing how you helped in a social cause.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="three" class="no-padding">
+    <div class="container-fluid">
+        <div class="row no-gutter">
+            <div class="col-lg-4 col-sm-6">
+                <a href="#galleryModal" class="gallery-box" data-toggle="modal"
+                   data-src="public/images/gal1.jpg">
+                    <img src="public/images/gal1.jpg" width="427" height="284"
+                         class="img-responsive" alt="Image 1">
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <i class="icon-lg ion-ios-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#galleryModal" class="gallery-box" data-toggle="modal"
+                   data-src="public/images/gal2.jpg">
+                    <img src="public/images/gal2.jpg" width="1536" height="1024"
+                         class="img-responsive" alt="Image 2">
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <i class="icon-lg ion-ios-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#galleryModal" class="gallery-box" data-toggle="modal"
+                   data-src="public/images/gal3.jpg">
+                    <img src="public/images/gal3.jpg"
+                         class="img-responsive" alt="Image 3">
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <i class="icon-lg ion-ios-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#galleryModal" class="gallery-box" data-toggle="modal"
+                   data-src="public/images/gal4.jpg">
+                    <img src="public/images/gal4.jpg"
+                         class="img-responsive" alt="Image 4">
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <i class="icon-lg ion-ios-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#galleryModal" class="gallery-box" data-toggle="modal"
+                   data-src="public/images/gal5.jpg">
+                    <img src="public/images/gal5.jpg"
+                         class="img-responsive" alt="Image 5">
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <i class="icon-lg ion-ios-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <a href="#galleryModal" class="gallery-box" data-toggle="modal"
+                   data-src="public/images/gal6.jpg">
+                    <img src="public/images/gal6.jpg"
+                         class="img-responsive" alt="Image 6">
+                    <div class="gallery-box-caption">
+                        <div class="gallery-box-content">
+                            <div>
+                                <i class="icon-lg ion-ios-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="last">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-center ">
+                <h2 class="margin-top-0 wow fadeIn">Get in Touch</h2>
+                <hr class="primary">
+                <p>We love Suggestions. Fill out the form below and we'll get back to you as soon as possible.</p>
+            </div>
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <form class="contact-form row">
+                    <div class="col-md-4">
+                        <label></label>
+                        <input type="text" class="form-control" placeholder="Name" id="name">
+                    </div>
+                    <div class="col-md-4">
+                        <label></label>
+                        <input type="text" class="form-control" placeholder="Email" id="email">
+                    </div>
+                    <div class="col-md-4">
+                        <label></label>
+                        <input type="text" class="form-control" placeholder="Phone" id="phone">
+                    </div>
+                    <div class="col-md-12">
+                        <label></label>
+                        <textarea class="form-control" rows="9" placeholder="Your message here.."
+                                  id="feedback"></textarea>
+                    </div>
+                    <div class="col-md-4 col-md-offset-4">
+                        <label></label>
+                        <button type="button" data-toggle="modal" data-target="#alertModal" id="feedbackSubmit"
+                                class="btn btn-primary btn-block btn-lg">Send Feedback<i
+                                class="ion-android-arrow-forward"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!--<footer id="footer">-->
+    <!--<div class="container-fluid">-->
+        <!--<div class="row">-->
+            <!--&lt;!&ndash;<div class="col-xs-6 col-sm-3 column">&ndash;&gt;-->
+            <!--&lt;!&ndash;<h4>Information</h4>&ndash;&gt;-->
+            <!--&lt;!&ndash;<ul class="list-unstyled">&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="">Products</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="">Services</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="">Benefits</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="">Developers</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--&lt;!&ndash;<div class="col-xs-6 col-sm-3 column">&ndash;&gt;-->
+            <!--&lt;!&ndash;<h4>About</h4>&ndash;&gt;-->
+            <!--&lt;!&ndash;<ul class="list-unstyled">&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="#">Contact Us</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="#">Delivery Information</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="#">Privacy Policy</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="#">Terms &amp; Conditions</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+            <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--<div class="col-xs-12 col-sm-3 text-right">-->
+                <!--<h4 style="float:left">Follow</h4>-->
+                <!--<ul class="list-inline">-->
+                    <!--<li><a rel="nofollow" href="http://twitter.com" target="_blank" title="Twitter"><i-->
+                            <!--class="icon-lg ion-social-twitter-outline"></i></a>&nbsp;-->
+                    <!--</li>-->
+                    <!--<li><a rel="nofollow" href="http://facebook.com" target="_blank" title="Facebook"><i-->
+                            <!--class="icon-lg ion-social-facebook-outline"></i></a>&nbsp;</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+        <!--<br/>-->
+        <!--<span class="pull-right text-muted small">neversleephungry ©2015 Company</span>-->
+    <!--</div>-->
+<!--</footer>-->
+<div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img src="//placehold.it/1200x700/222?text=..." id="galleryImage" class="img-responsive"
+                     width="1200px"/>
+                <p>
+                    <br/>
+                    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i
+                            class="ion-android-close"></i></button>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="aboutModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h2 class="text-center">NEVER SLEEP HUNGRY</h2>
+                <h5 class="text-center">
+                    Skip 1 soda during your next meal , or skip 1 meal in your whole lifetime, 1 meal that is all what
+                    is needed. $10 is all what we are asking from you. One meal if you can skip it will not make you
+                    poor but it will
+                    certainly make a kid somewhere happy and help him sleep without a hungry stomach.
+                </h5>
+                <p class="text-justify">
+                    One Meal of Your Life Can Bring Happiness to a Kid, dying of Hunger. One Meal from your entire
+                    LIFE that is all what we are asking you to give.
+                    You can spend money on burgers,pizza and soda but one meal in a day of your life if you skip it
+                    and donate it to someone in need you will be making someone in the world happier.
+                    Have you ever thought before you leave a piece of bread or a single grain in your plate and
+                    throw it, that tiny piece is the most thankful and important part of your life, what god has
+                    provided you with? To provide the families and individuals who are in need of this single
+                    grain/bread,
+                    we have created an international organization known as NEVERSLEEPHUNGRY, based in India and United
+                    States.
+                    Our Organization’s mission is to feed and distribute food and commodities to thousands of people who
+                    are
+                    living under poverty with no food and everyday necessities. We now have re-focused
+                    our energies on the extensive needs, primarily on hunger support in all parts of the world.
+                <h2>Our Mission</h2>
+                Currently, we started with a basic necessity of nutritious food and clean water. Our goal is to provide
+                food, adequate clothing, supplies
+                and education to needed communities around the world where these necessities are a luxury.
+                "2 Million people can be fed each year by the amount of food thrown by a small country like Japan."
+                </p>
+                <br/>
+                <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"> OK</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="alertModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h2 class="text-center">Thank You For Your FeedBack</h2>
+                <p class="text-center">Your FeedBack Was Submitted Successfully, someone from the organization will get
+                    back to you.</p>
+                <br/>
+                <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true"
+                        id="afterFeedBackModal">OK <i
+                        class="ion-android-close"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--scripts loaded here from cdn for performance -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script src="public/js/scripts.js"></script>
+</body>
+</html>
